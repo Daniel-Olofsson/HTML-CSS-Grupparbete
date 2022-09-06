@@ -11,8 +11,8 @@ body {
 
 header {
     padding: 2rem 2rem 2rem 2rem;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 img {
     display: block;
@@ -63,6 +63,10 @@ footer {
 /*PRODUCTS_PAGE*/
 .products-aside{
     float:left;
+    border-style: solid;
+    padding: 20px 10px 30px 10px;
+    border-width: 8px;
+    border-radius: 10px;
 }
 
 .products-container{
@@ -77,7 +81,21 @@ footer {
 .product-card{
     display:block;
     flex-basis: 25%;
+
+    margin: 10px 0pc 10px 0px;
+    text-align: center;
 }
+
+.products-container > a{
+    color:black;
+    border-radius: 10px;
+}
+
+.products-container > a:hover{
+    color:white;
+}
+
+
 .newspaper {
     column-count: 5;
     column-gap: 20px;
@@ -85,3 +103,4 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
 }    
+
