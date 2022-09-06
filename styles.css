@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:black
+    background-color:white;
     
 }
 
@@ -14,11 +14,12 @@ header {
     background-color: black;
     color: white;
 }
-/*img {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }*/
+    border-style: solid;
+  }
   section {
     display:block;
     margin-top: 1rem;
@@ -32,6 +33,7 @@ nav {
     overflow:auto;
     background-color:firebrick;
     position: relative;
+    border-style: solid;
 }
 
 a {
@@ -55,6 +57,7 @@ footer {
     text-align: center;
     background-color: firebrick;
     color: white;
+    border-top: 3px solid black;
 }
 
 /*PRODUCTS_PAGE*/
@@ -75,3 +78,10 @@ footer {
     display:block;
     flex-basis: 25%;
 }
+.newspaper {
+    column-count: 5;
+    column-gap: 20px;
+    column-rule: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}    
