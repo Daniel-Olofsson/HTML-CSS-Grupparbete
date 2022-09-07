@@ -84,4 +84,19 @@ footer {
     column-rule: none;
     margin-left: 20px;
     margin-right: 20px;
-}    
+}  
+fieldset {
+    background-color: #eeeeee;
+    margin-right: 75%;
+    margin-bottom: 3%;
+  }
+  
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  input {
+    margin: 5px;
+  }
