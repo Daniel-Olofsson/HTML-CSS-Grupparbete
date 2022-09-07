@@ -103,7 +103,7 @@ footer {
     column-rule: none;
     margin-left: 20px;
     margin-right: 20px;
-<<<<<<< HEAD
+
 }  
 fieldset {
     background-color: #eeeeee;
@@ -119,9 +119,7 @@ fieldset {
   
   input {
     margin: 5px;
-  }
-=======
-}    
+  }    
 
 .image-home > img {
     display: block;
@@ -149,4 +147,42 @@ fieldset {
     margin-left: 4rem;
     margin-right: 4rem;
 }
->>>>>>> 994a17f4fb0d202329596d662a0339aa27213749
+/*Contact us ccs */
+.full {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    
+  }
+  .fullform {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+  }
+  .image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    overflow: hidden;
+  }
+  .image > img { /*img take 100% width and height (optional)*/
+      width: 100%;
+      height: 100%;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 100px;
+    height: auto; /* Should be removed. Only for demonstration */
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
