@@ -15,12 +15,82 @@ header {
     background-color: white;
     color: black;
 }
+
+/*NAVBAR CSS*/
+
+.navbar {
+    overflow:auto; /*hidden*/
+    background-color:antiquewhite
+}
+
+.navbar a{
+    float:left;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 1.1rem;
+    text-decoration: none;/*ta bort pga accessibility?*/
+}
+
+.dropdown .drop-button{
+    font-size: 18px;
+    border:none;
+    outline:none;/*Vad gör denna?*/
+    padding:1.1rem;
+    background-color: inherit;
+    font-family: inherit;
+    margin:0;
+
+}
+
+.dropdown-categories a{
+    float: none; /*la dem under varandra ist f på en rad*/
+    display: block;
+    padding:1.1rem;
+    text-decoration:none;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 3px 0px;
+    opacity:0.8;
+    text-align: left;
+    min-width:140px;
+    z-index: 1;
+}
+
+.navbar a:hover, .drop-button, .dropdown:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.dropdown{
+    float: left;
+    overflow:hidden;
+    font-size: 26px;  
+  
+}
+
+.dropdown-categories{
+    display:none;
+    position: absolute; /*håller Products stilla när man hovrar över den */
+}
+
+.dropdown:hover .dropdown-categories {
+    display: block;
+  }
+
+.navbar a:last-child{
+    float:right;
+}
+
+/*END OF NAVBAR*/
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
   }
+
   section {
     display:block;
     margin-top: 1rem;
@@ -29,26 +99,6 @@ img {
     text-align: center;
   }
 
-
-nav {
-    overflow:auto;
-    background-color:firebrick;
-    position: relative;
-    border-style: solid;
-}
-
-a {
-    display: block;
-    float: left;
-    color: white;
-    margin: 0;
-    padding: 1rem 2rem 1rem 2rem;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: #17242a;
-}
 footer {
     position: relative;
     bottom: 0;
@@ -96,6 +146,7 @@ footer {
     color:white;
 }
 
+/*END OF PRODUCTS PAGE*/
 
 .newspaper {
     column-count: 5;
@@ -120,6 +171,8 @@ fieldset {
   input {
     margin: 5px;
   }    
+
+/*INDEXPAGE*/
 
 .image-home > img {
     display: block;
@@ -147,6 +200,9 @@ fieldset {
     margin-left: 4rem;
     margin-right: 4rem;
 }
+
+/*END OF INDEX-PAGE CSS*/
+
 /*Contact us ccs */
 .full {
     position: relative;

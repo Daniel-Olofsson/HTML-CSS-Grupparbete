@@ -13,13 +13,22 @@
     <header>
         <h1>Products</h1>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav><br>
-
     
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="drop-button">Products</button>
+            <div class="dropdown-categories">
+                <a href="Products.html">Product 1</a>
+                <a href="Products.html">Product 2</a>
+                <a href="Products.html">Product 3</a>
+            </div>
+        </div>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+    <!--
     <aside class="products-aside">
         <h2>Category</h2><br>
         <input type="checkbox" id="houseware1" name="houseware1" value="Cutlery">
@@ -29,6 +38,7 @@
         <input type="checkbox" id="houseware3" name="houseware3" value="Kitchen-ware">
         <label for="houseware3"> Kitchen ware</label><br>
     </aside>
+    -->
 
     <main class="products-container">
         <a href="product-info.html"><div class="product-card">
