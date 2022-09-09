@@ -7,11 +7,9 @@
 
 body {
     background-color:white;
-    
 }
 
 header {
-    /*padding: 2rem 2rem 2rem 2rem;*/
     background-color: white;
     color: black;
 }
@@ -41,7 +39,6 @@ header {
     background-color: inherit;
     font-family: inherit;
     margin:0;
-
 }
 
 .dropdown-categories a{
@@ -186,15 +183,12 @@ fieldset {
 }
 
 .h1-home {
-    text-align: center;
+    text-align: left;
     font-family: 'IM Fell English SC', serif;
     font-size: 52px;
     background-color: antiquewhite;
-    width:35%;
-    margin: 0 auto;
-    /*margin-bottom: 2rem;*/
-    border-style: solid;
-    
+    width:100%;
+    padding-top: 2rem;
 }
 
 .article-home {
