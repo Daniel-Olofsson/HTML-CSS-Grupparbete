@@ -12,6 +12,18 @@ body {
 
 header {
     /*padding: 2rem 2rem 2rem 2rem;*/
+ 
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+}
+
+header {
     background-color: white;
     color: black;
 }
@@ -186,6 +198,7 @@ fieldset {
 }
 
 .h1-home {
+
     text-align: center;
     font-family: 'IM Fell English SC', serif;
     font-size: 52px;
@@ -194,7 +207,12 @@ fieldset {
     margin: 0 auto;
     /*margin-bottom: 2rem;*/
     border-style: solid;
-    
+    text-align: left;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 52px;
+    background-color: antiquewhite;
+    width:100%;
+    padding-top: 2rem;
 }
 
 .article-home {
@@ -236,4 +254,3 @@ fieldset {
     clear: both;
   }
 
-  
