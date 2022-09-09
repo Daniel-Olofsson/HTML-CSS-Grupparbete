@@ -9,17 +9,7 @@ En kontakt-sida, en about-sida med mer information om vad vi gör och en produkt
 där alla produkter finns att se.
 
 
-### Vem har gjort vad?
 
-### Index
-
-### About
-
-### Products
-
-### Products-info
-
-### Contact
 
 
 
