@@ -95,7 +95,6 @@ img {
     display:block;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: white;
     text-align: center;
   }
 
@@ -242,3 +241,33 @@ fieldset {
     display: table;
     clear: both;
   }
+
+/* Donate.html */
+
+#foundation-progress {
+width: 100%;
+background-color: #ddd;
+}
+
+#foundation-progress-bar {
+width: 0%;
+height: 30px;
+background-color: #04AA6D;
+text-align: center;
+line-height: 30px;
+color: black;
+}
+
+.donate-btn {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color :red;
+  color: black;
+  box-shadow: darkred;
+}
+
+.donate-btn:hover {
+background-color: #CF2500;
+}
+
+/* End of donate.html */
