@@ -1,4 +1,13 @@
- 
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    background-color:white;
+    padding-bottom: 200px; 
+}
+
 * {
     margin: 0px;
     padding: 0;
@@ -7,11 +16,10 @@
 
 body {
     background-color:white;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-    /*padding: 2rem 2rem 2rem 2rem;*/
     background-color: white;
     color: black;
 }
@@ -20,7 +28,8 @@ header {
 
 .navbar {
     overflow:auto; /*hidden*/
-    background-color:antiquewhite
+    background-color:antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar a{
@@ -84,13 +93,6 @@ header {
 
 /*END OF NAVBAR*/
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-  }
-
   section {
     display:block;
     margin-top: 1rem;
@@ -108,7 +110,6 @@ footer {
     text-align: center;
     background-color: antiquewhite;
     color: black;
-    border-top: 3px solid black;
 }
 
 /*PRODUCTS_PAGE*/
@@ -132,7 +133,6 @@ footer {
 .product-card{
     display:block;
     flex-basis: 25%;
-
     margin: 10px 0pc 10px 0px;
     text-align: center;
 }
@@ -185,21 +185,36 @@ fieldset {
 }
 
 .h1-home {
+
     text-align: center;
     font-family: 'IM Fell English SC', serif;
     font-size: 52px;
     background-color: antiquewhite;
     width:35%;
     margin: 0 auto;
-    /*margin-bottom: 2rem;*/
-    border-style: solid;
-    
+    text-align: left;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 52px;
+    background-color: antiquewhite;
+    width:100%;
+    padding-top: 2rem;
+}
+
+.our-mission {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.our-mission h2 {
+    font-size: 36px;
 }
 
 .article-home {
     padding: 2rem 2rem 2rem 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
 }
 
 /*END OF INDEX-PAGE CSS*/
@@ -214,21 +229,12 @@ fieldset {
     
   }
   .fullform {
-    width: 60%;
+    width: 100%;
     background-color: rgb(255, 255, 255);
+    margin:auto;
+    text-align: center;
   }
-  .image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 80%;
-    overflow: hidden;
-  }
-  .image > img { /*img take 100% width and height (optional)*/
-      width: 100%;
-      height: 100%;
-  }
+
   .column {
     float: left;
     width: 33.33%;
@@ -273,3 +279,15 @@ background-color: #CF2500;
 }
 
 /* End of donate.html */
+  
+/* about page*/
+.h2-about {
+    text-align: center;
+}
+
+.img-about{
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto;
+}
+/* about page*/
