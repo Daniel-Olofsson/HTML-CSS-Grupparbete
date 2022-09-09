@@ -1,9 +1,8 @@
 * {
     box-sizing: border-box;
-<<<<<<< Updated upstream
+
   }
-=======
-}
+
 
 body {
     background-color:white;
@@ -236,4 +235,5 @@ fieldset {
     display: table;
     clear: both;
   }
->>>>>>> Stashed changes
+
+  
