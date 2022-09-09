@@ -81,7 +81,7 @@ header {
 
 /*END OF NAVBAR*/
 
-img {
+ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -99,10 +99,10 @@ img {
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed;
-    bottom: 0;
+    bottom: 0; 
     left: 0;
     width: 100%;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem; 
     text-align: center;
     background-color: antiquewhite;
     color: black;
@@ -130,18 +130,19 @@ footer {
 .product-card{
     display:block;
     flex-basis: 25%;
-
-    margin: 10px 0pc 10px 0px;
+    margin: 10px 10px 10px 10px;
     text-align: center;
+    padding: 1rem; 
 }
 
 .products-container > a{
-    color:black;
+    color: black;
     border-radius: 10px;
 }
 
 .products-container > a:hover{
-    color:white;
+    background-color: grey;
+    color: white;
 }
 
 /*END OF PRODUCTS PAGE*/
