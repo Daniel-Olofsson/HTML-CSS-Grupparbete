@@ -7,6 +7,7 @@
 
 body {
     background-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -18,7 +19,8 @@ header {
 
 .navbar {
     overflow:auto; /*hidden*/
-    background-color:antiquewhite
+    background-color:antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar a{
@@ -173,7 +175,7 @@ fieldset {
 /*INDEXPAGE*/
 
 .image-home > img {
-    display: block;
+    /*display: block;*/
     width: 500px;
     height: 300px;
     object-fit: cover;
@@ -191,10 +193,21 @@ fieldset {
     padding-top: 2rem;
 }
 
+.our-mission {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.our-mission h2 {
+    font-size: 36px;
+}
+
 .article-home {
     padding: 2rem 2rem 2rem 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
 }
 
 /*END OF INDEX-PAGE CSS*/
@@ -238,3 +251,4 @@ fieldset {
     display: table;
     clear: both;
   }
+
