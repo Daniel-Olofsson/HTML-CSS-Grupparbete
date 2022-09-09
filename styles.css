@@ -1,4 +1,18 @@
- 
+* {
+    box-sizing: border-box;
+
+  }
+
+
+body {
+    background-color:white;
+    padding-bottom: 200px;
+    
+}
+
+header {
+    /*padding: 2rem 2rem 2rem 2rem;*/
+}
 * {
     margin: 0px;
     padding: 0;
@@ -41,6 +55,7 @@ header {
     background-color: inherit;
     font-family: inherit;
     margin:0;
+
 }
 
 .dropdown-categories a{
@@ -83,12 +98,6 @@ header {
 
 /*END OF NAVBAR*/
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-  }
 
   section {
     display:block;
@@ -185,6 +194,15 @@ fieldset {
 }
 
 .h1-home {
+
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 52px;
+    background-color: antiquewhite;
+    width:35%;
+    margin: 0 auto;
+    /*margin-bottom: 2rem;*/
+    border-style: solid;
     text-align: left;
     font-family: 'IM Fell English SC', serif;
     font-size: 52px;
@@ -222,21 +240,12 @@ fieldset {
     
   }
   .fullform {
-    width: 60%;
+    width: 100%;
     background-color: rgb(255, 255, 255);
+    margin:auto;
+    text-align: center;
   }
-  .image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 80%;
-    overflow: hidden;
-  }
-  .image > img { /*img take 100% width and height (optional)*/
-      width: 100%;
-      height: 100%;
-  }
+
   .column {
     float: left;
     width: 33.33%;
@@ -251,4 +260,15 @@ fieldset {
     display: table;
     clear: both;
   }
+  
+/* about page*/
+.h2-about {
+    text-align: center;
+}
 
+.img-about{
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto;
+}
+/* about page*/
