@@ -1,5 +1,5 @@
  
-*  {
+* {
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    padding: 2rem 2rem 2rem 2rem;
+    /*padding: 2rem 2rem 2rem 2rem;*/
     background-color: white;
     color: black;
 }
@@ -99,14 +99,15 @@ img {
   }
 
 footer {
-    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     padding: 2rem 2rem 2rem 2rem;
     text-align: center;
-    background-color: firebrick;
-    color: white;
+    background-color: antiquewhite;
+    color: black;
     border-top: 3px solid black;
 }
 
@@ -178,6 +179,7 @@ fieldset {
     width: 500px;
     height: 300px;
     object-fit: cover;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -186,10 +188,10 @@ fieldset {
     text-align: center;
     font-family: 'IM Fell English SC', serif;
     font-size: 52px;
-    background-color: bisque;
+    background-color: antiquewhite;
     width:35%;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
     border-style: solid;
     
 }
