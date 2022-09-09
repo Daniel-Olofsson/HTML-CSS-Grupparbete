@@ -184,7 +184,7 @@ fieldset {
 /*INDEXPAGE*/
 
 .image-home > img {
-    /*display: block;*/
+    display: block;
     width: 500px;
     height: 300px;
     object-fit: cover;
